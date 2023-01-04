@@ -24,7 +24,6 @@ $(window).on('load', function() {
 	$('.nav-switch').on('click', function() {
 		$('.main-site-warp').addClass('push-side');
 		$('body').addClass('push-side');
-		
 		setTimeout(function(){
 			hero_section();
 		}, 400)
@@ -32,7 +31,6 @@ $(window).on('load', function() {
 	});
 	$('.close-menu').on('click', function() {
 		$('.main-site-warp').removeClass('push-side');
-		
 		setTimeout(function(){
 			$('body').removeClass('push-side');		
 		}, 400);
